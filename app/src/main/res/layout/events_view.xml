@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical"
+android:paddingLeft="20dp"
+android:paddingRight="20dp">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginBottom="10dp"
+                  android:orientation="horizontal"
+                  android:id="@+id/content"
+    android:gravity="center_vertical">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:orientation="vertical"
+        >
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/time"
+                  android:textSize="14sp"
+                  android:text="time"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/duration"
+                  android:textSize="14sp"
+                  android:text="duration"/>
+        </LinearLayout>
+        <View android:layout_width="10dp" android:layout_height="10dp"
+              android:background="@drawable/solid_circle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="-10dp"/>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:orientation="vertical"
+    android:gravity="center_vertical"
+                  android:layout_marginTop="10dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/title"
+                  android:textSize="16sp"
+                  android:text="title"
+
+        />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/location"
+                  android:layout_marginTop="5dp"
+                  android:textSize="14sp"
+                  android:text="location"
+        />
+    </LinearLayout>
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="10dp"
+              android:text="No Event"
+              android:textSize="14sp"
+              android:id="@+id/no_events"
+              android:visibility="gone"
+    />
+    <View android:layout_width="match_parent" android:layout_height="0.5dp"
+          android:background="#808080"
+    android:id="@+id/seperator"/>
+</LinearLayout>

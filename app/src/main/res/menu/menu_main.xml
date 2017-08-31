@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.outlook.calendar.MainActivity">
+    <item android:id="@+id/weather"
+          android:title="Get Weather Updates"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/googleSync"
+          android:title="Sync Google Account"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+</menu>
